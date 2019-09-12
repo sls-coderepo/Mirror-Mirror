@@ -1,0 +1,37 @@
+
+
+.main-input {
+    
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    
+}
+
+input {
+    border: 1px solid black;
+    height:25px;
+    font-size:20px;
+}
+
+.display-input {
+    display: flex;
+   
+}
+
+#left-article{
+    border:1px solid blue;
+    flex-basis:50%;
+    height:25px;
+    font-size:20px;
+    margin-right: 5px;
+}
+
+
+#right-article {
+    border:1px solid red;
+    flex-basis:50%;
+    height:25px;
+    font-size:20px;
+    margin-left: 5px;
+}
